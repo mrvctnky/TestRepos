@@ -1,0 +1,18 @@
+<mvc:View
+   controllerName="sap.ui.demo.walkthrough.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+   <App class="myTableApp">
+      <pages>
+         <Page title="{i18n>homepageTitle}">
+            <content>
+                <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.PatientPanel"/>
+            </content>
+         </Page>
+      </pages>
+   </App>
+</mvc:View>
+                   
+                   
+                   
